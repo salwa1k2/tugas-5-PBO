@@ -29,7 +29,7 @@ public class No3 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        System.out.print("Masukkan c: ");
+        System.out.print("Masukkan a: ");
         int a = input.nextInt();
 
         System.out.print("Masukkan b: ");
@@ -38,6 +38,8 @@ public class No3 {
         System.out.print("Masukkan c: ");
         int c = input.nextInt();
 
+        segitiga(a, b, c);
+    
 
     }
 }
